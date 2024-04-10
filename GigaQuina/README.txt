@@ -1,17 +1,2 @@
-		****readme****
-
-O funcinamento do programa constitui-se 
-basicamente na inserção de dados de um apostador,
-sendo considerados nome e cpf válido. Após a 
-inserção dos dados, será necessário preencher os 
-numeros desejados para aposta, caso queira finalizar
-basta clicar no botão finalizar aposta e será redi
-recionado para tela de sorteio onde nada mais pode
-ser alterado. O programa a partir dai relizará o 
-sorteio e informara ao final os resultados, informando
-se houveram ou não vencedores e logo abaixo os dados de 
-todos os apostadores, mais abaixo ainda os numeros 
-mais escohidos serão ordenados e informado quantas vezes
-cada um foi escohido pelos apostadores.
-
-
+O funcinamento do programa constitui-se basicamente na inserção de dados de um apostador, sendo considerados nome e cpf válido. Após a inserção dos dados, será necessário preencher os numeros desejados para aposta, caso queira finalizar basta clicar no botão finalizar aposta e será redirecionado para tela de sorteio onde nada mais pode ser alterado. O programa a partir dai relizará o sorteio e informara ao final os resultados, informando
+se houveram ou não vencedores e logo abaixo os dados de todos os apostadores, mais abaixo ainda os numeros mais escohidos serão ordenados e informado quantas vezes cada um foi escohido pelos apostadores.
