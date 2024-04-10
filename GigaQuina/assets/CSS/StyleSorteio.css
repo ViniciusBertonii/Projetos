@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.conteiner{
+    max-width: 600px;
+    min-height: 700px;
+    border: 2px solid #009F44;
+    border-radius: 24px 24px 24px 24px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header{
+    height: 150px;
+}
+
+header img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+main{
+    padding: 18px;
+    background-color: #F8F1B0;
+    min-height: 300px;
+    
+}
+
+
+
+.NumSorteado{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    height: 55px;
+    margin-top: 40px;
+
+}
+
+.NumSorteado .Sorteado{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #009F44;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 10px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:538px){
+    main button{
+        margin: 3px;
+    }
+    main{
+        min-height: 200px;
+    }
+    .conteiner{
+        min-height: 450px;
+        width: 100%;
+    }
+
+    
+}
+
+@media(max-width:460px){
+    
+    main{
+        min-height: 200px;
+    }
+    .conteiner{
+        min-height: 300px;
+        width: 100%;
+    }
+}
+
+@media(max-width:420px){
+    
+    main{
+        min-height: 120px;
+    }
+    .conteiner{
+        min-height: 250px;
+        width: 100%;
+    }
+}
